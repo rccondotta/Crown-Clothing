@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Crown Clothing
+FrontEnd Application for a clothing store!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Getting Started
 
-## Available Scripts
+In your terminal after you clone your project down, remember to run either yarn or npm install to build all the dependencies in the project.
 
-In the project directory, you can run:
+Remember to replace the config variable in your firebase.utils.js with your own config object from the firebase dashboard! Navigate to the project settings gear icon > project settings and scroll down to the config code. Copy the object in the code and replace the variable in your cloned code.
 
-### `npm start`
+Set up environment variables to configure the Stripe API:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
+REACT_APP_STRIPE_PUBLISHABLE_KEY=<values>
+STRIPE_SECRET_KEY=<values>
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Running the Project
 
-### `npm test`
+1. In the terminal, run: `npm run start`
+2. Browse to the clothing store frontend at [localhost:3000](http://localhost:3000) and check out the clothing store!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Packages Used
 
-### `npm run build`
+* dotenv - Loads environment variables from .env file
+* firebase - Firebase JavaScript library for web and Node.js
+* react-redux - Official React bindings for Redux
+* react-router-dom - Declarative routing for React web applications
+* redux - Predictable state container for JavaScript apps
+* redux-logger - Logger for Redux
+* redux-persist - Persist and rehydrate redux stores
+* redux-saga - Saga middleware for Redux to handle Side Effects
+* redux-thunk - Thunk middleware for Redux
+* reselect - Selectors for Redux
+* sass - A pure JavaScript implementation of Sass
+* stripe - Stripe API wrapper
+* styled-components - CSS for the <Component> Age. Style components your way with speed, strong typing, and flexibility
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Concepts
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Routing + React-Router
+* Authentication + Firebase
+* Firebase Database Storage
+* React Context for State Management
+* CSS-In-JS + Styled Components
+* Deploying with Netlify
+* Reducers, Redux, Redux-Thunk, Redux-Saga, Redux-Toolkit
+* Serverless Functions + Stripe
+* TypeScript
